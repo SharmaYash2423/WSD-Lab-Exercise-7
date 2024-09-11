@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Book Catalog</h1>
+    <button id="fetchbooks">Fetch Books</button>
+    
+    <input type="text" placeholder="Search book Name" id="search">
+    
+    <select id="sorting">
+        <option value="asc">Name Ascending</option>
+        <option value="desc">Name Descending</option>
+    </select>
+
+    <select id="complexity">
+        <option value="all">All Levels</option>
+        <option value="beginner">Beginner</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+    
+    <div id="books-container"></div>
+    <div id="pagination-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
